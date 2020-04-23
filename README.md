@@ -1,0 +1,2 @@
+# MyJourneyToHackerrank
+My Hackerrank Solutions
