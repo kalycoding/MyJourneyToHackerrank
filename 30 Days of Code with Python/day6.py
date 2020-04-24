@@ -1,11 +1,7 @@
-string = 'ptvzstvotxqyvzrwyqryzrpkswzryupwutmigc'
-e = ''
-o = ''
-for i in range(len(string)):
-    if i % 2 == 0:
-        e = e + string[i]
-for j in range(len(string)):
-    if j % 2 != 0:
-        o = o + string[j]
-
-print(e + " " + o)
+def sort(num):
+    biggest = num[0]
+    for i in range(len(num)):
+        if biggest < num[i]:
+            biggest = num[i]
+    return biggest
+print(sort([1010,-10,1,2,3,4,1,12,5,50,50,100]))
