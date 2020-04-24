@@ -1,7 +1,8 @@
-def sort(num):
-    biggest = num[0]
-    for i in range(len(num)):
-        if biggest < num[i]:
-            biggest = num[i]
-    return biggest
-print(sort([1010,-10,1,2,3,4,1,12,5,50,50,100]))
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+n = int(input())
+#student_marks = {}
+for _ in range(n):
+    name, *line = input().split()
+    even = name[0:len(name):2]
+    odd = name[1:len(name):2]
+    print(even + " " + odd)
